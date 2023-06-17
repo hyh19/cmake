@@ -117,32 +117,32 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-bin/CMakeFiles/hello.dir/rule:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/hello.dir/rule
-.PHONY : bin/CMakeFiles/hello.dir/rule
+bin/CMakeFiles/main.dir/rule:
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/main.dir/rule
+.PHONY : bin/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-hello: bin/CMakeFiles/hello.dir/rule
-.PHONY : hello
+main: bin/CMakeFiles/main.dir/rule
+.PHONY : main
 
 # fast build rule for target.
-hello/fast:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+main/fast:
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # target to build an object file
 main.o:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/main.o
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/main.i
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/main.s
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p5/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/main.s
 .PHONY : main.s
 
 # Help Target
@@ -153,7 +153,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello"
+	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

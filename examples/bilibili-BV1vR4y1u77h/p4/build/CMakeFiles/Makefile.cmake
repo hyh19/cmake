@@ -99,7 +99,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/Linux-GNU.cmake"
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/Linux.cmake"
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/UnixPaths.cmake"
-  "/workspace/cmake/p4/CMakeLists.txt"
+  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p4/CMakeLists.txt"
   "CMakeFiles/3.26.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeSystem.cmake"
@@ -123,5 +123,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   )

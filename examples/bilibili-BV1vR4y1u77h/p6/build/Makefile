@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named main
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # Help Target
 help:
@@ -186,7 +186,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... hello"
+	@echo "... main"
 .PHONY : help
 
 
