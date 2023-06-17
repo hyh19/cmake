@@ -3,10 +3,9 @@
 <https://www.bilibili.com/video/BV1vR4y1u77h?p=8>
 
 ```bash
-cd build && rm -rf *
-
-cmake ..
-
+cd build && \
+rm -rf * && \
+cmake .. && \
 make
 
 $ ll bin/libhello*

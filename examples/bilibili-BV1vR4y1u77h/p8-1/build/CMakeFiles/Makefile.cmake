@@ -99,11 +99,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/Linux-GNU.cmake"
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/Linux.cmake"
   "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/share/cmake/Modules/Platform/UnixPaths.cmake"
-  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/CMakeLists.txt"
+  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/CMakeLists.txt"
   "CMakeFiles/3.26.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.1/CMakeSystem.cmake"
-  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/CMakeLists.txt"
+  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

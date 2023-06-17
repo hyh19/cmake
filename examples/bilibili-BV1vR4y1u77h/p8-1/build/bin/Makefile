@@ -57,10 +57,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8
+CMAKE_SOURCE_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build
+CMAKE_BINARY_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin//CMakeFiles/progress.marks
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles 0
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/CMakeFiles /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin//CMakeFiles/progress.marks
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bin/CMakeFiles/hello.dir/rule:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/hello.dir/rule
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/hello.dir/rule
 .PHONY : bin/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ hello: bin/CMakeFiles/hello.dir/rule
 
 # fast build rule for target.
 hello/fast:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/build
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
 # Convenience name for target.
 bin/CMakeFiles/hello_static.dir/rule:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/hello_static.dir/rule
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/hello_static.dir/rule
 .PHONY : bin/CMakeFiles/hello_static.dir/rule
 
 # Convenience name for target.
@@ -141,25 +141,25 @@ hello_static: bin/CMakeFiles/hello_static.dir/rule
 
 # fast build rule for target.
 hello_static/fast:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/build
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/build
 .PHONY : hello_static/fast
 
 # target to build an object file
 hello.o:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.o
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.o
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.o
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.o
 .PHONY : hello.o
 
 # target to preprocess a source file
 hello.i:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.i
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.i
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.i
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.i
 .PHONY : hello.i
 
 # target to generate assembly for a file
 hello.s:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.s
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.s
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello.dir/build.make bin/CMakeFiles/hello.dir/hello.s
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/hello_static.dir/build.make bin/CMakeFiles/hello_static.dir/hello.s
 .PHONY : hello.s
 
 # Help Target
@@ -186,6 +186,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

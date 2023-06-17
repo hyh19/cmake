@@ -1,4 +1,4 @@
-# Install script for directory: /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib
+# Install script for directory: /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

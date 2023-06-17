@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp" "bin/CMakeFiles/hello_static.dir/hello.o" "gcc" "bin/CMakeFiles/hello_static.dir/hello.o.d"
+  "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp" "bin/CMakeFiles/hello_static.dir/hello.o" "gcc" "bin/CMakeFiles/hello_static.dir/hello.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

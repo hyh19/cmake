@@ -53,10 +53,10 @@ RM = /home/linuxbrew/.linuxbrew/Cellar/cmake/3.26.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8
+CMAKE_SOURCE_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build
+CMAKE_BINARY_DIR = /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build
 
 # Include any dependencies generated for this target.
 include bin/CMakeFiles/hello_static.dir/depend.make
@@ -70,18 +70,18 @@ include bin/CMakeFiles/hello_static.dir/progress.make
 include bin/CMakeFiles/hello_static.dir/flags.make
 
 bin/CMakeFiles/hello_static.dir/hello.o: bin/CMakeFiles/hello_static.dir/flags.make
-bin/CMakeFiles/hello_static.dir/hello.o: /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp
+bin/CMakeFiles/hello_static.dir/hello.o: /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp
 bin/CMakeFiles/hello_static.dir/hello.o: bin/CMakeFiles/hello_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/hello_static.dir/hello.o"
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bin/CMakeFiles/hello_static.dir/hello.o -MF CMakeFiles/hello_static.dir/hello.o.d -o CMakeFiles/hello_static.dir/hello.o -c /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bin/CMakeFiles/hello_static.dir/hello.o"
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bin/CMakeFiles/hello_static.dir/hello.o -MF CMakeFiles/hello_static.dir/hello.o.d -o CMakeFiles/hello_static.dir/hello.o -c /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp
 
 bin/CMakeFiles/hello_static.dir/hello.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_static.dir/hello.i"
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp > CMakeFiles/hello_static.dir/hello.i
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp > CMakeFiles/hello_static.dir/hello.i
 
 bin/CMakeFiles/hello_static.dir/hello.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_static.dir/hello.s"
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp -o CMakeFiles/hello_static.dir/hello.s
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp -o CMakeFiles/hello_static.dir/hello.s
 
 # Object files for target hello_static
 hello_static_OBJECTS = \
@@ -93,19 +93,19 @@ hello_static_EXTERNAL_OBJECTS =
 bin/libhello_static.a: bin/CMakeFiles/hello_static.dir/hello.o
 bin/libhello_static.a: bin/CMakeFiles/hello_static.dir/build.make
 bin/libhello_static.a: bin/CMakeFiles/hello_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhello_static.a"
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/hello_static.dir/cmake_clean_target.cmake
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhello_static.a"
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/hello_static.dir/cmake_clean_target.cmake
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bin/CMakeFiles/hello_static.dir/build: bin/libhello_static.a
 .PHONY : bin/CMakeFiles/hello_static.dir/build
 
 bin/CMakeFiles/hello_static.dir/clean:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/hello_static.dir/cmake_clean.cmake
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin && $(CMAKE_COMMAND) -P CMakeFiles/hello_static.dir/cmake_clean.cmake
 .PHONY : bin/CMakeFiles/hello_static.dir/clean
 
 bin/CMakeFiles/hello_static.dir/depend:
-	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8 /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin/CMakeFiles/hello_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1 /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/build/bin/CMakeFiles/hello_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bin/CMakeFiles/hello_static.dir/depend
 

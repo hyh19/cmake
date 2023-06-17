@@ -1,7 +1,7 @@
 bin/CMakeFiles/hello.dir/hello.o: \
- /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.cpp \
+ /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.cpp \
  /usr/include/stdc-predef.h \
- /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/lib/hello.h \
+ /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8-1/lib/hello.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
