@@ -1,0 +1,13 @@
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/rebuild_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/list_install_components.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/install.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/install/local.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/CMakeFiles/install/strip.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/hello.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/rebuild_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/list_install_components.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/install.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/install/local.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p6/build/bin/CMakeFiles/install/strip.dir
