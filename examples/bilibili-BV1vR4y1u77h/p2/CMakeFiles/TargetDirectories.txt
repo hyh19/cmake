@@ -1,0 +1,3 @@
+/workspace/cmake/p2/CMakeFiles/hello.dir
+/workspace/cmake/p2/CMakeFiles/edit_cache.dir
+/workspace/cmake/p2/CMakeFiles/rebuild_cache.dir
