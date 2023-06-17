@@ -1,0 +1,6 @@
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/CMakeFiles/rebuild_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin/CMakeFiles/hello.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin/CMakeFiles/hello_static.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p8/build/bin/CMakeFiles/rebuild_cache.dir
