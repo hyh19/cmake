@@ -1,0 +1,5 @@
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p9-1/build/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p9-1/build/CMakeFiles/rebuild_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p9-1/build/bin/CMakeFiles/main.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p9-1/build/bin/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p9-1/build/bin/CMakeFiles/rebuild_cache.dir

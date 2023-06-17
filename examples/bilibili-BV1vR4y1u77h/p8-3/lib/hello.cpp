@@ -2,5 +2,5 @@
 #include <iostream>
 void HelloFunc()
 {
-    std::cout << "Hello World" << std::endl;
+    std::cout << "Hello Func" << std::endl;
 }
