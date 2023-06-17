@@ -10,8 +10,8 @@ cmake ..
 make
 
 $ ll bin/libhello*
--rwxr-xr-x 1 gitpod gitpod 16168 Jun 17 13:05 bin/libhello.so*
--rw-r--r-- 1 gitpod gitpod  2902 Jun 17 13:05 bin/libhello_static.a
+-rw-r--r-- 1 gitpod gitpod  2902 Jun 17 13:31 bin/libhello.a
+-rwxr-xr-x 1 gitpod gitpod 16168 Jun 17 13:31 bin/libhello.so*
 ```
 
 ## Q&A
