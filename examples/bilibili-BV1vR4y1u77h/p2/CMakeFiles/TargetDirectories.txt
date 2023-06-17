@@ -1,3 +1,3 @@
-/workspace/cmake/p2/CMakeFiles/hello.dir
-/workspace/cmake/p2/CMakeFiles/edit_cache.dir
-/workspace/cmake/p2/CMakeFiles/rebuild_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p2/CMakeFiles/main.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p2/CMakeFiles/edit_cache.dir
+/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p2/CMakeFiles/rebuild_cache.dir

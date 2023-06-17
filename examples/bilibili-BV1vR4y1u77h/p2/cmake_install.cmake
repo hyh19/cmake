@@ -1,4 +1,4 @@
-# Install script for directory: /workspace/cmake/p2
+# Install script for directory: /workspace/cmake/examples/bilibili-BV1vR4y1u77h/p2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspace/cmake/p2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspace/cmake/examples/bilibili-BV1vR4y1u77h/p2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
